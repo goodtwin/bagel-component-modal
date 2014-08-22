@@ -1,7 +1,7 @@
 @mixin modal-prototype {
-	/*******************************
-				Modal
-	*******************************/
+	/* Modal
+	========================================
+	======================================== */
 
 	.ui.modal {
 		text-align: left;
@@ -12,13 +12,12 @@
 		user-select: text;
 	}
 
-	/*******************************
-				Content
-	*******************************/
+	/* Content
+	======================================== */
 
-	/*--------------
-		Close
-	---------------*/
+	/**
+	 * Close
+	 */
 
 	.ui.modal > .close {
 		opacity: 0.8;
@@ -31,9 +30,9 @@
 		opacity: 1;
 	}
 
-	/*--------------
-		Header
-	---------------*/
+	/**
+	 * Header
+	 */
 
 	.ui.modal > .header {
 		margin: 0em;
@@ -42,9 +41,9 @@
 		font-weight: bold;
 	}
 
-	/*--------------
-		Content
-	---------------*/
+	/**
+	 * Content
+	 */
 
 	.ui.modal > .content {
 		padding: 2em;
@@ -67,9 +66,9 @@
 		line-height: 1.6;
 	}
 
-	/*--------------
-		Actions
-	---------------*/
+	/**
+	 * Actions
+	 */
 
 	.ui.modal .actions {
 		padding: 1rem 2rem;
@@ -79,9 +78,9 @@
 		margin-left: 0.75em;
 	}
 
-	/*-------------------
-		Sizing
-	--------------------*/
+	/**
+	 * Sizing
+	 */
 
 	/* Mobile Only */
 	@media only screen and (max-width : 768px) {
@@ -149,9 +148,8 @@
 		}
 	}
 
-	/*******************************
-				Types
-	*******************************/
+	/* Types
+	======================================== */
 
 	.ui.basic.modal {
 		background-color: transparent;
@@ -166,9 +164,9 @@
 		background-color: transparent;
 	}
 
-	/*--------------
-		Size
-	---------------*/
+	/**
+	 * Size
+	 */
 
 	/* Small */
 	.ui.small.modal > .header {
